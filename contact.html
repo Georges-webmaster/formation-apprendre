@@ -1,0 +1,83 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div id="container_balises">
+      <header>
+        <h1 class="titlemenu"><span class="titlecolor">G2R</span>FORMATION</h1>
+        <nav class="menunav">
+          <ul class="navigation">
+            <li><a class="aline" href="index.html">Acceuil</a></li>
+            <li><a class="aline" href="test.html">Test</a></li>
+            <li><a class="aline" href="avance.html">Avancé</a></li>
+            <li><a class="aline" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <aside>
+
+        <h3>Adresse : </h3>
+
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.3891913462735!2d2.383680215304317!3d48.85078850919655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6720b839a0513%3A0x37ecedfa0810a2a5!2s4%20Cit%C3%A9%20de%20l&#39;Ameublement%2C%2075011%20Paris!5e0!3m2!1sfr!2sfr!4v1645024292411!5m2!1sfr!2sfr" 
+        width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      </aside>
+
+      <section>
+        <h2>Me contacter :</h2>
+        <p>* Obligatoire</p>
+        <form action="" method="post">
+          <p>
+            <label for="name">Nom* :</label>
+            <br />
+            <input type="text" id="name" name="name" />
+          </p>
+          <p>
+            <label for="prenom">Prénom* :</label>
+            <br />
+            <input
+              type="text"
+              id="prenom"
+              name="prenom"
+              placeholder="Indiquer votre prénom"
+            required/>
+          </p>
+          <p>
+            <label for="email">E-mail* :</label>
+            <br />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Indiquer votre e-mail"
+            required/>
+          </p>
+          <p>
+            <label for="commentaire">Commentaire :</label>
+            <br />
+            <textarea
+              name="commentaire"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Votre commentaire ici. Max 500chars."
+            maxlength="500"></textarea>
+          </p>
+
+          <p>
+            <input type="submit" value="ENVOYER" />
+          </p>
+        </form>
+      </section>
+
+      <footer>@G2R Formation</footer>
+    </div>
+  </body>
+</html>

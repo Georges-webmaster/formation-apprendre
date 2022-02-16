@@ -29,8 +29,9 @@ header {
 
 .imgzen {
   object-fit: cover;
-  height: 1000px;
-  width: 700px;
+  width: 400px;
+  height: 250px;
+ 
 }
 
 .titlecolor
@@ -44,4 +45,21 @@ color: aquamarine;
 
 {
     text-decoration: none;
+}
+
+
+.centerbloc
+
+{
+display: flex;
+flex-direction: row;
+
+}
+
+.blocaside
+
+{
+width: 400px; 
+height: 700px;
+background-color: aqua;   
 }
