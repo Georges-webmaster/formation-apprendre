@@ -1,4 +1,47 @@
-border_collapse
-  
- 
-  
+#container_balises {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.titlemenu {
+  margin-right: 100px;
+}
+
+.navigation li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menunav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 400px;
+  margin-top: 40px;
+  background-color: beige;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.imgzen {
+  object-fit: cover;
+  height: 1000px;
+  width: 700px;
+}
+
+.titlecolor
+
+{
+color: aquamarine;
+
+}
+
+.aline
+
+{
+    text-decoration: none;
+}
