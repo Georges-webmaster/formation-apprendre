@@ -1,5 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Roboto+Slab&display=swap");
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 #container_balises {
   margin: 0 auto;
+  width: 80%;
+  background-color: #b5b6b2;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 header {
@@ -20,46 +36,67 @@ header {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-left: 400px;
   margin-top: 40px;
-  background-color: beige;
-  padding-left: 10px;
+  padding-left: 26px;
   padding-right: 10px;
+  width: 104%;
+  background-color: #2f2e33;
+  color: #ffffff;
+}
+
+.menunav a {
+  color: #ffffff;
 }
 
 .imgzen {
   object-fit: cover;
-  width: 400px;
   height: 250px;
- 
+  width: 50%;
+  height: 215px;
 }
 
-.titlecolor
-
-{
-color: aquamarine;
-
+.aline {
+  text-decoration: none;
+  color: black;
 }
 
-.aline
-
-{
-    text-decoration: none;
+.blocaside {
+  width: 400px;
+  height: 700px;
+  background-color: #3a5199;
+  color: #ffffff;
+  padding-left: 15px;
 }
 
-
-.centerbloc
-
-{
-display: flex;
-flex-direction: row;
-
+.textindex {
+  width: 300px;
 }
 
-.blocaside
+.centerbloc {
+  display: flex;
+  justify-content: space-between;
+}
 
-{
-width: 400px; 
-height: 700px;
-background-color: aqua;   
+.indexpage {
+  width: 60%;
+}
+
+.blocaside {
+  width: 35%;
+}
+
+.footerbloc {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f2e33;
+  color: #fff;
+  width: 100%;
+}
+
+.titleformation {
+  width: 30%;
+  color: #3a5199;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
 }
