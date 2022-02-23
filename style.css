@@ -60,6 +60,13 @@ header {
   color: black;
 }
 
+.decotext
+
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .blocaside {
   width: 400px;
   height: 700px;
@@ -96,6 +103,13 @@ header {
 .titleformation {
   width: 30%;
   color: #3a5199;
+}
+
+.col-12
+
+{
+
+  background-color: antiquewhite;
 }
 
 @media screen and (min-width: 200px) and (max-width: 640px) {
