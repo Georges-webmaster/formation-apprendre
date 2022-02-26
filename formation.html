@@ -200,7 +200,7 @@ HTML
 
 <li>
 
-  JavaScript
+  JavaScript,
 </li>
 
 
@@ -291,21 +291,137 @@ Symfony
       le HTML, CSS, JavaScript, PHP, SQL, et Python.
     </p>
     <p>
-      En ce qui concerne les mobiles, il existe deux langages qui sont principalement utilisés 
-      qui sont Android pour Google et ios pour Apple.
+      En ce qui concerne les mobiles, il existe deux langages entre Android pour Google et IOS pour Apple.
     </p>
     
     <p>
-     Les différentes tailles d'écran et les besoins utilisateurs vont faire émerger 
-     une forme de convergence 
-      les différents supports ou plus précisémment les terminaux.
+     Les différentes tailles d'écran, les besoins utilisateurs, la synchronisation des bases de données en temps réel vont faire émerger 
+     une optimisation dans l'utilisation des langages afin qu'ils soient utilisés pour les différents terminaux. 
     </p>
     <p>
-      C'est donc le cross Platform qui est apparu en 2011, c'est un modèle
-      qualifé d'hybride.
+      Pour cela, un modèle hybride va émerger en 2011 dénomée cross Platform qui va englober le site web et l'application. 
     </p>
 
-    <h2>Comprendre et fonctionnement de base d'une page web</h2>
+    <h2>Comprendre le fonctionnement de base d'une page web</h2>
+
+    <h3>Le rôle du navigateur</h3>
+
+    <p>C'est grâce au navigateur qu'une page web s'affiche et qu'elle devient compréhensible à sa lecture par les êtres humains.</p>
+
+    <p>Sans le navigateur, nous aurions un afichage complexe de donnnées qu'il nous serait impossible de comprendre.</p>
+
+<p>Le navigateur va alors traduire la page web grâce à un système de marquage et de balises.</p>
+
+<p>Il existe à ce jour plusieurs navigateurs  tels que : </p>
+<ul>
+  <li>Chrome, dévéloppé par Google.</li>
+<li>Mozilla Firefox, créé par la Fondation Mozilla Firefox. </li>
+<li>Internet Explorer, conçu par Microsoft. </li>
+<li>Edge, récent navigateur de Microsoft. </li>
+</ul>
+
+<p>En effet, c'est grâce au langage  HTML (Hyper Text Markup langage) - "Langage de balisage hypertexte" qu'il nous est possible d'organiser et de rendre visible une page web.</p>
+
+<p>Nous pourrons alors afficher et structuer un texte constitué de titres, de paragaphes et d'images.
+  C'est quelque sorte notre canevas de départ pour la mise en place d'une page web. 
+</p>
+
+<p>La mise en forme sera ensuite effectuée par le CSS (Cascading Style Sheets), comme une forme de cascades de plusieurs feuilles de styles. Nous pourrons en effet apporter la nécessaire complémentarité visuel et mise en forme pour une lecture plus attrayante d'une page web.</p>
+
+<h3>La mise en pratique du HTML5 et CSS3</h3>
+
+<p>Il nous est tout d'abord, nécessaire de choisir un 
+  éditeur de texte ou un environnement de développement intégré. Pour ce faire, l'installation de Visual Studio Code est requise afin de développer progressivement les lignes de code pour des pages web. 
+</p>
+
+<p>Pour commencer, il nous est tout de même nécessaire d'identfier la composition des balises HTML.</p>
+
+<p>Celles-ci sont structurées par des chevrons et des mots significatifs en fonction de l'affichage que nous voulons transmettre au navigateur.</p>
+
+<p>Les balises ont pour rôles d'envoyer des instructions au navigateur, celles-ci sont composés principalement en paires d'une balise ouvrante et fermantes ou soit d'une balise seule, qualifiée d'orpheline.</p>
+
+<p>Selon, ce que nous désirons organiser comme contenu textuel, nous aurons une balise qui va entourer un mot ou une phrase, un paragaphe. En effet, grâce à nos balises ouvrantes et fermantes, un affichage se produira dans la navigateur.</p>
+ <img src="images/balises-html.jpeg" alt="Balises HTML">
+
+<p>
+Il nous est également nécessaire d'identfier la structuration globale d'une page web afin que celle-ci soit reconnue dans son intégralité par le navigateur. 
+</p>
+
+<p>En effet, une page web est identifibale en fonction d'une structure précise qu'il convient d'énumérer.</p>
+
+<img src="images/doctype-html.jpeg" alt="">
+
+<p>La première ligne avec le Doctype, nous permettra d'indiquer au navigateur qu'il s'agit bien d'une page web. Par la suite, la balise html englobera  l'intégralité du code, sans oublier : 
+  
+  <ul>
+
+    <li>
+L'entête avec la balise head pour des informations générales et le titre de la page, l'encodage (gestion des caractères spéciaux),
+    </li>
+
+<li>
+Le corps avec body qui a pour rôle de tout afficher à l'écran, c'est d'ailleurs dans cette partie que pratiquement tout le code sera écrit. 
+</li>
+  </ul>
+  
+   </p>
+
+<p>
+Nous pourrons alons commencer à coder et à réaliser une première page web et sa mise en forme avec le CSS.
+</p>
+
+<p>
+Pour cela, il sera nécessaire de connaître les différentes balises afférentes à notre organisation de contenu. Nous pourrons alors nous aider de ressources afin d'identfier le qualificatif des balises : 
+<ul>
+<li>
+La documentation du <a href="https://developer.mozilla.org/fr/" target="_blank" rel="noopener noreferrer">MDN Web Docs de Mozilla.</a>
+
+</li>
+<li>
+Le site web, <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3C Scools. </a>
+</li>
+
+</ul>
+
+</p>
+
+
+<h3>Comme des boîtes dans des boîtes</h3>
+
+<p>
+Il nous est donc possible dorénavant d'afficher des informations de texte dans le navigateur. 
+Or, il nous sera maintenant utile de créer une forme identifiable qui intègrera les textes et les mises en forme. 
+</p>
+
+<p>Pour ce faire, nous devrons créer en quelque sorte des boîtes dans des boîtes.</p>
+
+<p>C'est donc d'autres balises qui vont nous servir pour réaliser ce type d'ations avec la dénomination de la balise générique div et span.</p>
+
+<p>Ces balises ont longtemps servi comme seules références pour les codeurs, elles restent bien évdemment très utilisés.</p>
+
+
+<h3>La mise en forme</h3>
+
+<p>
+Elle s'effectue grâce au fichier CSS, nous pourrons grâce à celui-ci mettre du style à nos balises. 
+En effet, c'est grâce à une syntaxe précise composée de 
+propriétés et ses valeurs que nous déterminerons la mise en forme de notre page web. 
+</p>
+
+<p>
+
+  
+</p>
+
+
+
+    <p>Pour cela, nous devons charger une page depuis une serveur, il y a un chargement depuis le serveur avec la base de données.
+      Nous pourrons alors obtenir une page web qualifiée de dynamique. En effet, l'utilisateur va pouvoir charger la page selon sa demande.
+      Ce qui est en effet, ce qui caractérise par une page spécifique selon son identifiant et plus particulièrement selon la base de données qui va charger sa page.
+    </p>
+
+
+
     <h3>Le front et ses langages</h3>
 
     <p>Nous commençons avec le "Front" et sa spécificité de l'utilisation HTML et CSS3, le JavaScript.</p>
@@ -314,11 +430,7 @@ Symfony
     </p>
     <p>Le langage SQL va alors être utilisé comme sous forme de collones et de rangées</p>
     <p>Il était intéressant de comprendre le fonctionnement de la page web.</p>
-    <p>La page est affichée par le navigateur et elle est stockée dans un servveur.</p>
-    <p>Pour cela, nous devons charger une page depuis une serveur, il y a un chargement depuis le serveur avec la base de données.
-      Nous pourrons alors obtenir une page web qualifiée de dynamique. En effet, l'utilisateur va pouvoir charger la page selon sa demande.
-      Ce qui est en effet, ce qui caractérise par une page spécifique selon son identifiant et plus particulièrement selon la base de données qui va charger sa page.
-    </p>
+    
 
     <h2>La construction d'une page web</h2>
     <h3>La structuration d'une page web</h3>
