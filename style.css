@@ -10,7 +10,7 @@ p {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#container_balises {
+#container {
   margin: 0 auto;
   width: 80%;
   background-color: #b5b6b2;
@@ -21,31 +21,39 @@ p {
 header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.titlemenu {
-  margin-right: 100px;
-}
-
-.navigation li {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.menunav ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  margin-top: 40px;
-  padding-left: 26px;
-  padding-right: 10px;
-  width: 104%;
+.nav_menu {
+  margin-top: 20px;
+  padding-top: 20px;
   background-color: #2f2e33;
-  color: #ffffff;
 }
 
-.menunav a {
-  color: #ffffff;
+nav a {
+  margin-left: 20px;
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header_title {
+  width: 30%;
+  color: #3a5199;
+}
+
+.block_center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_block {
+  width: 60%;
+  margin-top: 82px;
+  padding: 20px;
+  background-color:#ECEDE8 ;
+  margin-bottom: 40px;
 }
 
 .imgzen {
@@ -55,66 +63,43 @@ header {
   height: 215px;
 }
 
-.aline {
-  text-decoration: none;
-  color: black;
-}
-
-.decotext
-
-{
+.decotext {
   text-decoration: none;
   color: #ffffff;
 }
 
-.blocaside {
-  width: 400px;
+.aside_bloc {
+  width: 25%;
   height: 700px;
   background-color: #3a5199;
   color: #ffffff;
   padding-left: 15px;
+  margin-top: 85px;
 }
 
-.textindex {
-  width: 300px;
-}
-
-.centerbloc {
-  display: flex;
-  justify-content: space-between;
-}
-
-.indexpage {
-  width: 60%;
-}
-
-.blocaside {
-  width: 35%;
-}
-
-.footerbloc {
+.footer_block {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   background-color: #2f2e33;
   color: #fff;
-  width: 100%;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.titleformation {
-  width: 30%;
-  color: #3a5199;
+.footer_colonn {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-.col-12
+.footer_title {
+  font-size: medium;
+}
 
-{
-
+.col-12 {
   background-color: antiquewhite;
 }
-
-
-
-
 
 @media screen and (min-width: 200px) and (max-width: 640px) {
 }
