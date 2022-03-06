@@ -471,36 +471,91 @@ requises :
         </ul>
       </p>
       <p>Pour continuer, nous allons strtcurer notre page web avec des boîtes, celles-ci représentent en quelque 
-        les grands briques d'une page web. Nous les identifions avec une balise générique qui est 
+        sorte les grands briques d'une page web. Nous les identifions avec une balise générique qui est 
         <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/div" target="_blank">div.</a>
       </p>
       <h2>Les boîtes et leur mise en forme</h2>
       <h3>Les balises génériques</h3>
-      <p>Nous pouvons construire une boîte avec les balise div</p>
+      <p>Nous pouvons construire une boîte avec les balise div.</p>
       <p>Cela va nous permettre de définir une structure à notre page web.</p>
+      <p>
+    En effet, il nous sera nécessaire d'utiliser des balises pour commencer un affichage sous forme de blocs avec des balises génériques qui sont les div et les span. 
+    Ces balises vont nous permettre de structurer notre code et d'afficher des blocs.  
+    </p>
+
       <h2>HTML pour le contenu et CSS pour la mise en forme</h2>
       
-      <p>Nous alons alors obtenir une mise en forme de la boîte avec pour son extérieur une valeur dans le CSS qui s'appelle dans son terme générique 
+      <p>Il nous est désormais nécessaire d'effectuer la mise en forme de notre code. 
+        Pour ce faire, nous allons utiliser un autre fichier spécifique qui est le CSS. 
+      </p>
+
+      <p>C'est bien grâce au CSS que nous allons pouvoir par exemple colorer les titres, l'intérieur et le contour des boîtes.</p>
+
+      <p>Afin de rendre attaryant notre code HTML, nous allons simplement créer un fichier avec l'extention .css, il sera alors reconnu par le navigateur comme ficher de mise en forme. Il nous sera aussi utile de lier le fichier HTML et CSS. Pour cela, nous utiliserons la balise link dans le code HTML et plus spécifiquement dans la balise  head.</p>
+      
+
+      <p>Nous pourrons alons alors obtenir entre autre une mise en forme des fameuses boîtes avec notre balise div dans le code HTML. Pour appliquer, le CCS, nous devons utiliser des proprités et des valeurs. En effet, une balise dans le code HTML sera sélectionnée avec nottament un sélecteur et il sera possible d'insérer un fond avec une couleur, des marges internes et externes. Nous retrouvons les spécifications des ces proprités sur le site du MDN Web Docs de Mozilla Firefox. 
       <a href="https://developer.mozilla.org/fr/docs/Web/CSS/margin" target="_blank">marging</a> pour l'extérieur et le <a href="http://" target="_blank" rel="noopener noreferrer"></a>
       <a href="https://developer.mozilla.org/fr/docs/Web/CSS/padding" target="_blank">padding</a>
        pour l'intérieur.
       </p>
-    <p>En effet, nous allons utiliser <a href="https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors" target="_blank">le fichier CCS</a>
+
+      <h3>Le CSS</h3>
+
+    <p>Pour revenir, sur le <a href="https://developer.mozilla.org/fr/docs/Learn/CSS/First_steps/What_is_CSS" target="_blank" rel="noopener noreferrer">fichier CSS</a>
+    , nous devons donc lier les fichier HTML et CSS afin d'activer toutes les possibilités de mise en forme grâce aux <a href="https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors" target="_blank">sélecteurs.</a>
+    Suite à cette action, il nous sera nécessaire de comprendre le fonctionnement des sélecteurs et leurs propriétés. En effet, c'est grâce aux ciblages des éléments HTML que nous pourrons mettre ceux-ci en forme.</p>
+    <p>Il existe plusieurs possibilités dans le ciblage des éléments HTML, la base de cette action consiste à identfier la balise sur laquelle nous voulons agir, si nous prenons pour expemple la balise h1, nous obtiendrons dans le CSS : 
+
+      <ul>
+        <li>
+          Le sélecteur h1 
+
+        </li>
+        <li>
+          Une ouverture et fermeture d'accolades 
+
+        </li>
+
+        <li>
+A l'intérieur des accolades, une propriété spécifique en fonction de la mise en forme et une valeur de la propriété. 
+
+        </li>
+
+        <li>
+          Nous obtenons alors : 
+          <img class=""  src="images/css-selecteur.png" alt="selecteur-css">
+        </li>
+      </ul>
+    </p>
+       <p>Nous pouvons même spécifier les dimensions des boîtes des balises div selon les propriétes et leurs valeurs :
+        <ul>
+        <li>
+           <a href="https://developer.mozilla.org/fr/docs/Web/CSS/width" target="_blank" rel="noopener noreferrer">width</a>
+        </li>
+        <li>
+        <a href="https://developer.mozilla.org/fr/docs/Web/CSS/height" target="_blanck">height.</a>
+        </li>
+      </ul>
+    </p>
+
+    <p>Pour en savoir plus, <a href="https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/The_box_model" target="_blank" rel="noopener noreferrer"> sur le modèle de boîte</a>
+     , il est plutôt reconnandé de consulter le site du MDN web docs qui explique leur fonctionnement et leur postionnement dans une page HTML.</p>
+
+     <h3>les couleurs</h3>
+
+     <p>
+      Il est tout de même indispensable d'évoquer le traitement des couleurs pour une page web.
+      En effet, il existe un standard numérique nottament pour les écrans d'ordinateur qui est le RGB, comme évoqué dans
       
-       pour la mise en forme qui sera lié avec le fichier HTML.</p>
-       <p>Nous pouvons ensuite dimensionner la boîte de la balise div avec le 
-         <a href="https://developer.mozilla.org/fr/docs/Web/CSS/width" target="_blank" rel="noopener noreferrer">width</a>
-     et le <a href="https://developer.mozilla.org/fr/docs/Web/CSS/height" target="_blanck">height.</a>
-      Ils sont des valeurs des selecteurs positionnés dans le code HTML.
-    </p>
-    <p>Nous pouvons même spécifier le contour de la boîte avec sa valeur.</p>
-    <p>
-    Il nous sera nécessaire d'utiliser des balises pour commencer un affichage sous forme de blocs par des balises générique. Elles se qualifient par div et span. 
-    Ces balises vont permettre une forme de structure en affichage et dans le code. 
+     <a href="https://fr.wikipedia.org/wiki/SRGB" target="_blank" rel="noopener noreferrer">la page Wikipédia </a>
+      dédié au sRGB que nous vous invitons à consulter.  
+     </p>
 
-    </p>
-
-
+     <p>En complément, il est aussi à noter que des valeurs spécifiques sont attribuées aux couleurs pour leurs affichges sur les écrans. C'est en effet plus particulièrement grâce à des valeurs hexadécimales comme stipulé dans ces deux articles de <a href="https://fr.wikipedia.org/wiki/Couleur_du_Web" target="_blank" rel="noopener noreferrer"> Wikipédia</a>
+       et du <a href="https://developer.mozilla.org/fr/docs/Web/CSS/color_value" target="_blank" rel="noopener noreferrer">  MDN web docs</a>
+      </p>
+   
     <p>
 
      Nous avons appris la méthode avec get et post. Il s'avère qu'avec gest
@@ -570,11 +625,8 @@ requises :
             >
           </p>
         </aside>
-
  </div> 
     </div>
-
-    
    <footer class="footer_block">
       <div class="footer_colonn">
         <h2 class="footer_title">Formation</h2>
